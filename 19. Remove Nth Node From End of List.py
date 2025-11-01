@@ -1,3 +1,10 @@
+'''
+The idea for n + 1 here is we are using a dummy node, so that's actually n
+Now, when I let fast travel n, and then let fast to null with slow following fast,
+then slow travels L - n distance, just before the node to be deleted
+That's why n + 1 works
+'''
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
